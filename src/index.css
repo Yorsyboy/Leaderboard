@@ -39,7 +39,16 @@ h1#headline {
   width: 80%;
 }
 
-input.refresh-score {
+li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+li:nth-child(2n + 1) {
+  background-color: #bebebe;
+}
+
+input#refresh-score {
   float: right;
   transition: 300ms;
   border: 3px solid;
@@ -50,7 +59,7 @@ input.refresh-score {
   padding: 5px 10px;
 }
 
-input.refresh-score:hover {
+input#refresh-score:hover {
   transform: scale(1.05);
 }
 
@@ -76,12 +85,12 @@ input.refresh-score:hover {
   font-weight: normal;
 }
 
-.student-title:hover {
+/* .student-title:hover {
   animation-name: titleShake;
   animation-duration: 3s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
-}
+} */
 
 #students-list {
   width: 80%;
@@ -92,6 +101,10 @@ input.refresh-score:hover {
   border-radius: 5px;
   max-height: 50vh;
   overflow-y: scroll;
+}
+
+.inner-text {
+  margin: auto;
 }
 
 .student-store {
