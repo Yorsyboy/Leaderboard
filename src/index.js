@@ -45,7 +45,7 @@ const studentListener = async (gameID) => {
 const refreshButtonEventListener = async (gameID) => {
   const studentsList = document.getElementById('students-list');
   studentsList.innerHTML = `
-    <p class="inner-text">Hold on Refresh in progress...</p>
+    <p class="inner-text"><img src="https://gifimage.net/wp-content/uploads/2017/09/animasi-gif-loading-6.gif" alt="" width="100"></p>
   `;
 
   const data = await callAPI.getScores(gameID.gameID);
