@@ -14,7 +14,7 @@ body {
   padding: 50px 10% 20px;
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
 }
@@ -38,7 +38,7 @@ h1#headline {
 }
 
 #score {
-  width: 80%;
+  width: 100%;
   background-color: #262b35;
   padding: 50px;
   border-radius: 10px;
@@ -47,6 +47,7 @@ h1#headline {
   flex-direction: column;
   flex-grow: 1;
   gap: 40px;
+  min-width: 200px;
 }
 
 .refresh {
@@ -180,14 +181,4 @@ input#refresh-score:hover {
 
 #input-form input[type="submit"]:hover {
   transform: scale(1.05);
-}
-
-footer {
-  color: #fff;
-  background-color: #262b35;
-  padding: 10px;
-  height: 30px;
-  margin: 10px 10%;
-  border: 3px solid;
-  border-radius: 10px;
 }
