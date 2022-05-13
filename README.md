@@ -4,6 +4,9 @@
 
 > A Scoreboard to store student scores
 
+## Live Demo
+https://yorsyboy.github.io/Leaderboard/
+
 ## Built With
 - HTML
 - CSS
@@ -84,3 +87,7 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Hat tip to anyone whose code was used
 - Inspiration etc.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
