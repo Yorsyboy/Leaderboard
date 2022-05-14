@@ -5,7 +5,7 @@
 > A Scoreboard to store student scores
 
 ## Live Demo
-https://yorsyboy.github.io/Leaderboard/
+- [Live Demo Link](https://yorsyboy.github.io/Leaderboard/)
 
 ## Built With
 - HTML
